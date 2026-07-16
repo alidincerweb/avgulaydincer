@@ -1,10 +1,10 @@
-# Gülay Dinçer Hukuk Bürosu
+# Gülay Dinçer Kişisel Tanıtım Sayfası
 
-Bağımlılıksız, statik bir hukuk bürosu tanıtım sitesi. Yayın klasörü `site/` dizinidir.
+Bağımlılıksız, statik bir kişisel tanıtım sitesi. Yayın klasörü `site/` dizinidir.
 
 ## Yayından önce
 
-`site/index.html` içindeki `SITE_CONFIG` alanında telefon, baro ve sicil numarası için yer tutucular bulunur. Yayına almadan önce `+90 5XX...` ve `XXXX` değerlerini gerçek bilgilerle değiştirin. Alan adı farklı olacaksa canonical, Open Graph ve JSON-LD adreslerini de güncelleyin.
+`site/index.html` içindeki `SITE_CONFIG` alanında telefon için bir yer tutucu bulunur. Yayına almadan önce `+90 5XX...` değerini gerçek bilgiyle değiştirin. Alan adı farklı olacaksa canonical, Open Graph ve JSON-LD adreslerini de güncelleyin.
 
 İletişim formu sunucuya veri göndermez; doğrulanan bilgileri ziyaretçinin e-posta uygulamasında taslak olarak açar. Sunucu tarafı form istenirse ayrı bir servis veya Cloudflare Pages Function eklenmelidir.
 
